@@ -1,7 +1,5 @@
 # AWS-Certified-Solutions-Architect
 
-AWS Certified Solutions Architect : Associate SAA‐C02 Exam
-
 ## The Core AWS Services
 
 ## Cloud Computing and Virtualization
@@ -38,3 +36,5 @@ AWS Certified Solutions Architect : Associate SAA‐C02 Exam
 > Data centers exist within AWS regions, of which there are currently 21—not including private U.S. government AWS GovCloud regions—although this number is constantly growing. 
 
 > It's important to always be conscious of the region you have selected when you launch new AWS resources; pricing and service availability can vary from one to the next
+
+## Amazon Elastic Compute Cloud and Amazon Elastic Block Store (EC2 And EBS)
