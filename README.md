@@ -12,4 +12,10 @@ AWS Certified Solutions Architect : Associate SAA‐C02 Exam
 
 * That physical server could therefore host multiple virtual machines (VMs) running their own complete operating systems, each with its own memory, storage, and network access.
 
-![CloudVsVirtualization](./VM-Cloud.png)
+### Virtual Machine
+
+![Virtualization](./VM-Cloud.png)
+
+### AWS Cloud VM
+
+![Virtualization](./AWS-Virtulization.png)
