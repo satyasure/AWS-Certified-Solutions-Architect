@@ -14,8 +14,16 @@ AWS Certified Solutions Architect : Associate SAA‐C02 Exam
 
 ### Virtual Machine
 
+Virtualization's flexibility makes it possible to provision a virtual server in a matter of seconds, run it for exactly the time your project requires, and then shut it down. The resources released will become instantly available to other workloads. The usage density you can achieve lets you squeeze the greatest value from your hardware and makes it easy to generate experimental and sandboxed environments.
+
 ![Virtualization](./VM-Cloud.png)
 
 ### AWS Cloud VM
+
+#### Cloud Computing Architecture
+
+Major cloud providers like AWS have enormous server farms where hundreds of thousands of servers and disk drives are maintained along with the network cabling necessary to connect them. A well‐built virtualized environment could provide a virtual server using storage, memory, compute cycles, and network bandwidth collected from the most efficient mix of available sources it can find.
+
+A cloud computing platform offers on‐demand, self‐service access to pooled compute resources where your usage is metered and billed according to the volume you consume. Cloud computing systems allow for precise billing models, sometimes involving fractions of a penny for an hour of consumption
 
 ![Virtualization](./AWS-Virtulization.png)
