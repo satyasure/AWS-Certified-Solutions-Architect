@@ -165,6 +165,31 @@ Here, there are three primary details to get right
 
 >Naturally, dedicated instances and dedicated hosts will cost you more than instances using shared tenancy.
 
+### Configuring Instance Behavior
+
+You can optionally tell EC2 to execute commands on your instance as it boots by pointing to user data in your instance configuration (this is sometimes known as bootstrapping). Whether you specify the data during the console configuration process or by using the ‐‐user‐data value with the AWS CLI, you can have script files bring your instance to any desired state.
+
+User data can consist of a few simple commands to install a web server and populate its web root, or it can be a sophisticated script setting up the instance as a working node within a Puppet Enterprise–driven platform.
+
+### Placement Groups
+
+By default AWS will attempt to spread your instances across their infrastructure to create a profile that will be optimal for most use cases. But the specific demands of your operation might require a different setup. EC2 placement groups give you the power to define nonstandard profiles to better meet your needs. There are, at this time,
+
+> Three kinds of placement groups
+
+** Cluster groups ** launch each associated instance into a single availability zone within close physical proximity to each other. This provides low‐latency network interconnectivity and can be useful for high‐performance computing (HPC) applications, for instance.
+
+** Spread groups ** separate instances physically across distinct hardware racks and even availability zones to reduce the risk of failure‐related data or service loss. Such a setup can be valuable when you're running hosts that can't tolerate multiple concurrent failures. If you're familiar with VMware's Distributed Resource Scheduler (DRS), this is similar to that.
+
+** Partition groups** let you associate some instances with each other, placing them in a single “partition.” But the instances within that single partition can be kept physically separated from instances within other partitions. This differs from spread groups where no two instances will ever share physical hardware.
+
+### Instance Pricing
+You can purchase the use of EC2 instances through one of three models.
+
+For always‐on deployments that you expect to run for less than 12 months, you'll normally pay for each hour your instance is running through the on‐demand model. On‐demand is the most flexible way to consume EC2 resources since you're able to closely control how much you pay by stopping and starting your instances according to your need. But, per hour, it's also the most expensive.
+
+If you're planning to keep the lights burning 24/7 for more than a year, then you'll enjoy a significant discount by purchasing a reserve instance—generally over a term commitment of between one and three years. You can pay up front for the entire term of a reserve instance or, for incrementally higher rates, either partially up front and the rest in monthly charges or entirely through monthly charges. Table 2.2 gives you a sense of how costs can change between models. These estimates assume a Linux platform, all up‐front payments, and default tenancy. Actual costs may vary over time and between regions.
+
 ## Pricing estimates comparing on‐demand with reserve costs
 
 ![Pricing](./src/images/pricing-Table.png)
