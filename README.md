@@ -158,3 +158,9 @@ Here, there are three primary details to get right
 > When launching an EC2 instance, you'll have the opportunity to choose a tenancy model. 
 
 > The default setting is shared tenancy, where your instance will run as a virtual machine on a physical server that's concurrently hosting other instances. Those other instances might well be owned and operated by other AWS customers, although the possibility of any kind of insecure interaction between instances is remote.
+
+> To meet special regulatory requirements, your organization's instances might need an extra level of isolation. The Dedicated Instance option ensures that your instance will run on a dedicated physical server. This means that it won't be sharing the server with resources owned by a different customer account. 
+
+> The Dedicated Host option allows you to actually identify and control the physical server you've been assigned to meet more restrictive licensing or regulatory requirements.
+
+>Naturally, dedicated instances and dedicated hosts will cost you more than instances using shared tenancy.
