@@ -15,7 +15,7 @@
 > Virtualization's flexibility makes it possible to provision a virtual server in a matter of seconds, run it for exactly the time your project requires, and then shut it down. The resources released will become instantly available to other workloads. 
 > The usage density you can achieve lets you squeeze the greatest value from your hardware and makes it easy to generate experimental and sandboxed environments.
 
-![Virtualization](./src/images/VM-Cloud.png)
+![VM](./src/images/VM-Cloud.png)
 
 ### AWS Cloud VM
 
@@ -151,7 +151,7 @@ Here, there are three primary details to get right
 
 > For example, you might have one VPC for early application development, another for beta testing, and a third for production
 
-![Virtualization](./src/images/VPC.png)
+![VPC](./src/images/VPC.png)
 
 ## Tenancy
 
@@ -164,3 +164,7 @@ Here, there are three primary details to get right
 > The Dedicated Host option allows you to actually identify and control the physical server you've been assigned to meet more restrictive licensing or regulatory requirements.
 
 >Naturally, dedicated instances and dedicated hosts will cost you more than instances using shared tenancy.
+
+## Pricing estimates comparing on‐demand with reserve costs
+
+![Pricing](./src/images/pricing.png)
