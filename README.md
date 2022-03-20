@@ -74,16 +74,16 @@ The ultimate focus of a traditional data center/server room is its precious serv
 At the center of it all is the EC2 virtual server, known as an instance. But, like the local server room I just described, EC2 provides a range of tools meant to support and enhance your instance's operations
 
 ```
-        1. Provisioning an EC2 instance with the right hardware resources for your project
-        2. Configuring the right base operating system for your application needs
-        3. Building a secure and effective network environment for your instance
-        4. Adding scripts to run as the instance boots to support (or start) your application
-        5. Choosing the best EC2 pricing model for your needs
-        6. Understanding how to manage and leverage the EC2 instance lifecycle
-        7. Choosing the right storage drive type for your needs
-        8. Securing your EC2 resources using key pairs, security groups, network access lists, and Identity and Access Management (IAM) roles
-        9. Scaling the number of instances up and down to meet changing demand using Auto Scaling
-        10. Accessing your instance as an administrator or end‐user client
+   1. Provisioning an EC2 instance with the right hardware resources for your project
+   2. Configuring the right base operating system for your application needs
+   3. Building a secure and effective network environment for your instance
+   4. Adding scripts to run as the instance boots to support (or start) your application
+   5. Choosing the best EC2 pricing model for your needs
+   6. Understanding how to manage and leverage the EC2 instance lifecycle
+   7. Choosing the right storage drive type for your needs
+   8. Securing your EC2 resources using key pairs, security groups, network access lists, and Identity and Access Management (IAM) roles
+   9. Scaling the number of instances up and down to meet changing demand using Auto Scaling
+   10. Accessing your instance as an administrator or end‐user client
 ```
 ### EC2 Instances
 
@@ -95,7 +95,7 @@ At the center of it all is the EC2 virtual server, known as an instance. But, li
 
 1. Provisioning and EC2 Instance
 
-1.1 EC2 Amazon Machine Images
+   1.1 EC2 Amazon Machine Images
 
         1.1.1 Amazon Quick Start AMIs
 
