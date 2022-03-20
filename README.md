@@ -152,3 +152,9 @@ Here, there are three primary details to get right
 > For example, you might have one VPC for early application development, another for beta testing, and a third for production
 
 ![Virtualization](./src/images/VPC.png)
+
+## Tenancy
+
+> When launching an EC2 instance, you'll have the opportunity to choose a tenancy model. 
+
+> The default setting is shared tenancy, where your instance will run as a virtual machine on a physical server that's concurrently hosting other instances. Those other instances might well be owned and operated by other AWS customers, although the possibility of any kind of insecure interaction between instances is remote.
