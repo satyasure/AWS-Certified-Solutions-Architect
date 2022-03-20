@@ -42,29 +42,29 @@
 
 ### Domain 1: Design Resilient Architectures
 
-1.1 Design a multi‐tier architecture solution
+        1.1 Design a multi‐tier architecture solution
 
-1.2 Design highly available and/or fault‐tolerant architectures
+        1.2 Design highly available and/or fault‐tolerant architectures
 
-1.4 Choose appropriate resilient storage
+        1.4 Choose appropriate resilient storage
 
 ### Domain 2: Design High‐Performing Architectures
 
-2.1 Identify elastic and scalable compute solutions for a workload
+        2.1 Identify elastic and scalable compute solutions for a workload
 
-2.2 Select high‐performing and scalable storage solutions for a workload
+        2.2 Select high‐performing and scalable storage solutions for a workload
 
 ### Domain 3: Design Secure Applications and Architectures
 
-3.1 Design secure access to AWS resources
+        3.1 Design secure access to AWS resources
 
 ### Domain 4: Design Cost‐Optimized Architectures
 
-4.1 Identify cost‐effective storage solutions
+        4.1 Identify cost‐effective storage solutions
 
-4.2 Identify cost‐effective compute and database services
+        4.2 Identify cost‐effective compute and database services
 
-4.3 Design cost‐optimized network architectures
+        4.3 Design cost‐optimized network architectures
 
 ## Introduction
 The ultimate focus of a traditional data center/server room is its precious servers. But, to make those servers useful, you'll need to add racks, power supplies, cabling, switches, firewalls, and cooling.
@@ -74,16 +74,16 @@ The ultimate focus of a traditional data center/server room is its precious serv
 At the center of it all is the EC2 virtual server, known as an instance. But, like the local server room I just described, EC2 provides a range of tools meant to support and enhance your instance's operations
 
 ```
-1. Provisioning an EC2 instance with the right hardware resources for your project
-2. Configuring the right base operating system for your application needs
-3. Building a secure and effective network environment for your instance
-4. Adding scripts to run as the instance boots to support (or start) your application
-5. Choosing the best EC2 pricing model for your needs
-6. Understanding how to manage and leverage the EC2 instance lifecycle
-7. Choosing the right storage drive type for your needs
-8. Securing your EC2 resources using key pairs, security groups, network access lists, and Identity and Access Management (IAM) roles
-9. Scaling the number of instances up and down to meet changing demand using Auto Scaling
-10. Accessing your instance as an administrator or end‐user client
+        1. Provisioning an EC2 instance with the right hardware resources for your project
+        2. Configuring the right base operating system for your application needs
+        3. Building a secure and effective network environment for your instance
+        4. Adding scripts to run as the instance boots to support (or start) your application
+        5. Choosing the best EC2 pricing model for your needs
+        6. Understanding how to manage and leverage the EC2 instance lifecycle
+        7. Choosing the right storage drive type for your needs
+        8. Securing your EC2 resources using key pairs, security groups, network access lists, and Identity and Access Management (IAM) roles
+        9. Scaling the number of instances up and down to meet changing demand using Auto Scaling
+        10. Accessing your instance as an administrator or end‐user client
 ```
 ### EC2 Instances
 
