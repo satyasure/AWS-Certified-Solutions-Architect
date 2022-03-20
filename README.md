@@ -32,6 +32,9 @@ AWS Certified Solutions Architect : Associate SAA‐C02 Exam
 ## AWS Platform Architecture
 
 > AWS maintains data centers for its physical servers around the world. Because the centers are so widely distributed, you can reduce your own services' network transfer latency by hosting your workloads geographically close to your users. 
+
 > It can also help you manage compliance with regulations requiring you to keep data within a particular legal jurisdiction.
+
 > Data centers exist within AWS regions, of which there are currently 21—not including private U.S. government AWS GovCloud regions—although this number is constantly growing. 
+
 > It's important to always be conscious of the region you have selected when you launch new AWS resources; pricing and service availability can vary from one to the next
