@@ -167,4 +167,4 @@ Here, there are three primary details to get right
 
 ## Pricing estimates comparing on‐demand with reserve costs
 
-![Pricing](./src/images/pricing.png)
+![Pricing](./src/images/pricing-Table.png)
